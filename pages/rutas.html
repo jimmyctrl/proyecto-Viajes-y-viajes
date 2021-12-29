@@ -8,51 +8,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <title>Viajes y viajes</title>
+    <title>Document</title>
 </head>
-<body>
-    <header class="py-5 bg-image-full" style="background-image: url('../assets/portada2.jpg'); height: 100vh;">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<body>   
+    <header class="py-5 bg-image-full" style="background-image: url('../assets/portada2.jpg'); height: 100vh;"> 
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container"> <!-- contenedor para crear padding -->
                 <a class="navbar-brand" href="#!"><h3 class="animate__animated animate__zoomIn">Viajes y Viajes</h3></a> <!-- logo y o icono -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> <!-- Aparece boton responsive al momento de colapsar -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- desaparecen botones al colapso -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html"><h6 class="animate__animated animate__fadeIn">Inicio</h6></a></li>
-                        <li class="nav-item"><a class="nav-link" href="./acercade.html"><h6 class="animate__animated animate__fadeIn">Acerca de</h6></a></li>
+                        <li class="nav-item"><a class="nav-link" href="acercade.html"><h6 class="animate__animated animate__fadeIn">Acerca de</h6></a></li>
                         <li class="nav-item"><a class="nav-link" href="rutas.html"><h6 class="animate__animated animate__fadeIn">Rutas</h6></a></li>
                         <li class="nav-item"><a class="nav-link" href="ofertas.html"><h6 class="animate__animated animate__fadeIn">Ofertas</h6></a></li>
                         <li class="nav-item"><a class="nav-link" href="contacto.html"><h6 class="animate__animated animate__fadeIn">Contacto</h6></a></li>
                     </ul>
                 </div>
             </div>
-        </nav>      
+        </nav>     
     </header>
 
     <main class="py-5">
-        <section id="about">
-            <div class="container py-5">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Acerca de esta pagina</h2>
-                        <p class="lead">Somos una agencia de viajes, preparados para ofrecerte una gran experiencia. Tenemos experiencia y convenios con los mejores lugares, te ofrecemos en nuestros combos:</p>
-                        <ul>
-                            <li>Estadia en los mejores hoteles, y los que mas se ajusten a tu alcance.</li>
-                            <li>Viaje con la aerolina de tu preferencia</li>
-                            <li>Combo de parejas, familiar y nuestro valorado viaje solteros</li>
-                            <li>Almuerzos reservados en restaurantes con 3 estrellas, zona de cocteleria y buffet</li>
-                        </ul>
+        <div class="row gx-4 gx-lg-5 justi">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Avianca</h2>
+                        <p class="card-text">Avianca S. A. propiedad de la sociedad británica​​ Avianca Group. Fundada en 1919 bajo el nombre de SCADTA, es la segunda aerolínea existente más antigua del mundo</p>
                     </div>
+                    <div class="card-footer"><a class="btn btn-dark btn-sm" href="#!">Mas informacion</a></div>
                 </div>
             </div>
-        </section>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Satena</h2>
+                        <p class="card-text">SATENA es una aerolínea comercial de pasajeros, propiedad del Estado Colombiano y fundada el 12 de abril de 1962. Tiene su sede en Fontibón, Bogotá.​​​​</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-dark btn-sm" href="#!">Mas informacion</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Latam</h2>
+                        <p class="card-text">LATAM Airlines es una aerolínea multinacional chilena formada por la fusión de las aerolíneas sudamericanas LAN, TAM​ y sus filiales.</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-dark btn-sm" href="#!">Mas informacion</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="text-center footer1">
         <div class="container p-4 pb-0">
         <section class="mb-4">
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
@@ -69,9 +82,9 @@
                 <i class="fab fa-github"></i></a>
         </section>
         </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center p-3 footer2">
         © 2021 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">J y T</a>
+        <a class="corp" href="https://mdbootstrap.com/">J y T</a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
