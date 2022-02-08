@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "0.0.1",
+  "description": "aniadiendo sass a proyecto",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./utils/scss/styles.scss ./utils/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyctrl/Viajes-y-Viajes.git"
+  },
+  "author": "jimmyctrl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyctrl/Viajes-y-Viajes/issues"
+  },
+  "homepage": "https://github.com/jimmyctrl/Viajes-y-Viajes#readme"
+}

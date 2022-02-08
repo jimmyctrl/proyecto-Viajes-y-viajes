@@ -1,0 +1,25 @@
+//carrousel
+.carousel-inner{
+    img{
+    width: 70%;
+    max-height: 1060px;
+    margin-top: 30px;
+    margin: auto;
+    }
+    h5{
+        color:whitesmoke;
+        font-weight: bold;
+        height: 50px;
+        text-align:center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    p{
+        color: black;
+        font: {
+            weight:bold;
+            size: 15px;
+            family:arial;
+        } 
+    }
+}
